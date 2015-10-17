@@ -1,0 +1,176 @@
+
+/*Hides banners before Javascript loads*/
+div.hidden_banner {
+	display: none;
+}
+
+/* Expanded Banner ---------------------------------------------------------*/
+#nix_banner {
+	margin: auto;
+	overflow: hidden;
+	background: #1f1f1f;
+	width: 1200px; 
+	height: 300px;
+	position: relative;
+}
+
+#collapse{
+	text-transform: uppercase;
+	bottom: 50px;
+	left:1110px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	top: -10px;
+	color: #bd944c;
+	position: absolute;
+	z-index: 70;
+}
+#collapse:hover {
+	cursor:pointer;
+    text-decoration: underline;
+}
+
+
+/* Watch ---------------------------------------------------------*/
+#logo1 {
+	z-index: 50;
+	padding: 110px 0px 0px 870px;
+	position: absolute;
+}
+
+#watch {
+	z-index: 50;
+	left: 205px;
+	position: absolute;
+}
+
+#diplomat {
+	z-index: 50;
+	/*padding: 80px 0px 0px 585px;*/
+	top: 80px;
+	left: 585px;
+	position: absolute;
+}
+
+#shop {
+	z-index: 50;
+	position: absolute;
+	top: 177px;
+	left: 613px;
+	/*padding: 177px 0px 0px 613px;*/
+}
+
+#shop_box {
+	z-index: 50;
+	position: absolute;
+	top: 160px;
+	left: 585px;
+	/*padding: 160px 0px 0px 585px;*/
+	
+}
+/* End Watch ---------------------------------------------------------*/
+
+
+/* Cali ---------------------------------------------------------*/
+
+#banner_shade {
+	z-index: 30;
+	position: absolute;
+}
+#alive {
+	z-index: 40;
+	position: absolute;
+	padding: 110px 0px 0px 150px;
+	/*top: 30px;
+	left: 150px;*/
+}
+#big_logo {
+	z-index: 50;
+	position:absolute;
+	padding: 115px 0px 0px 830px;
+	/*top: 35px;
+	left: 830px;*/
+}
+
+/* End Cali ---------------------------------------------------------*/
+
+/* Wake Up ---------------------------------------------------------*/
+#woke {
+	 z-index: 20;
+	position: absolute;
+	bottom: 15px; /*Image is 50 pixels above origin*/
+
+}
+/* End Wake Up ---------------------------------------------------------*/
+
+/* Wave ---------------------------------------------------------*/
+#wavy {
+	 z-index: 10;
+	 width:1200px; 
+	/*top: 75px; Image is 75 pixels below origin*/
+	position: absolute;
+}
+/* EndWave ---------------------------------------------------------*/
+/* End Expanded Banner ---------------------------------------------------------*/
+
+/* Collaped Banner --------------------------------------------------------------*/
+#nix_banner_small {
+	margin: auto;
+	overflow: hidden;
+	background: #1f1f1f;
+	width: 1200px; 
+	height: 75px;
+	position: relative;
+}
+
+#expand {
+	text-transform: uppercase;
+	left:1125px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+	color: #bd944c;
+	position: absolute;
+	z-index: 70;
+	top:-10px;
+}
+#expand:hover {
+	cursor:pointer;
+    text-decoration: underline;
+}
+
+#watch_small {
+	left: 345px;
+	position: absolute;
+}
+
+#diplomat_small {
+	/*padding: 5px 0px 0px 552px;*/
+	top: 5px;
+	left: 552px;
+	position: absolute;
+}
+
+#shop_small {
+	top: 53px;
+	left: 566px;
+	/*padding: 53px 0px 0px 566px;*/
+	position: absolute;
+}
+
+#shop_box_small {
+	top: 45px;
+	left: 552px;
+	/*padding: 45px 0px 0px 552px;*/
+	position: absolute;
+}
+
+#logo_small {
+	/*padding: 30px 0px 0px 772px;*/
+	top: 30px;
+	left: 772px;
+	position: absolute;
+}
+/* End Collapsed Banner ---------------------------------------------------------*/
+
+
+
